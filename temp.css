@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Belanosima&family=Caprasimo&family=Changa+One:ital@1&family=Kavoon&family=Lilita+One&family=Lobster&family=Nunito&family=Patua+One&family=Poppins:ital,wght@0,500;1,400;1,600&family=Roboto+Slab:wght@500&family=Rowdies&family=Satisfy&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #6c2445;
+    background-image: url('https://cdn.wallpapersafari.com/51/0/QI8TLl.jpg');    
+    background-size: 1300px 650px;
+}
+#calcTemp {
+    border-radius: 10px;
+    padding: 29px 67px;
+    min-height: 340px;
+    background-color: #89bdfb;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-image: url('https://cdn.wallpapersafari.com/56/49/9UYVkN.jpg'); 
+    background-size: 550px 420px;
+}
+#calcTemp:hover{
+    background-color:rgb(105, 187, 246) !important;
+    background-image: url('https://www.rd.com/wp-content/uploads/2018/06/bermuda-triangle.jpg');
+    background-size: 540px 400px ;
+
+
+}
+
+label {
+    color: #ce2772;
+    font-size: 38px;
+    line-height: 78px;
+    font-family: 'Lilita One', cursive;
+}
+
+#temp {
+    width: 110px;
+    height: 34px;
+    border-radius: 7px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid black;
+    outline: none;
+   
+}
+
+#temp:hover{
+    background-color: #dfd6dc;
+    color: rgb(103, 9, 9);
+}
+
+#temp_diff {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid black;
+    outline: none;
+}
+#temp_diff:hover{
+    background-color:rgb(230, 213, 213);
+    cursor: pointer;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(150, 103, 42);
+    cursor: pointer;
+}
+
+#result{
+    border: none;
+    color: rgb(29, 16, 16);
+    margin: auto;
+    border-radius: 5px;
+    font-size: 29px;
+    margin-top: 40px;
+}
+
+.reset{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.reset input:hover{
+    background: rgb(14, 12, 12);
+    transform: scale(1.1);
+    cursor: pointer;
+    color: red;
+}
+  .btn {
+    background-image: linear-gradient(60deg , black 0%,black 80%);
+    background-image: -webkit-linear-gradient(top, black, black);
+    background-image: -moz-linear-gradient(top, black black);
+    background-image: -ms-linear-gradient(top, black, black);
+    background-image: -o-linear-gradient(top, black, black);
+    background-image: linear-gradient(to bottom, rgb(8, 8, 8), black);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 12px;
+    text-shadow: 0px 0px 6px #666666;
+    font-family: 'Acme', sans-serif;
+    transition: color 0.5s;
+    color: rgb(192, 231, 205);
+    font-weight: bolder;
+    font-size: 19px;
+    padding: 5px 30px 5px 30px;
+    border: solid 	#1583a7 1px;
+    text-decoration: none;
+   
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background: rgb(171, 75, 75);
+    transform: scale(1.3);
+    transition: all 500ms ease;
+    background-image: -webkit-linear-gradient(top, rgb(85, 62, 62), black);
+    background-image: -moz-linear-gradient(top, black, black);
+    background-image: -ms-linear-gradient(top, black, rgb(61, 65, 99));
+    background-image: -o-linear-gradient(top, black, black);
+    background-image: linear-gradient(to bottom, rgb(68, 20, 20), rgb(20, 7, 7));
+    text-decoration: none;
+  }
+
+  .reset input{
+    width:100px;
+    height: 30px;
+    border-radius: 10px;
+    background: black;
+    color: aliceblue;
+}
